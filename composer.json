@@ -1,5 +1,5 @@
 {
-    "name": "schibsted-tech-polska/svd-travis-commands",
+    "name": "svd/travis-commands",
     "description": "Travis Commands",
     "keywords": ["svd", "travis", "commands"],
     "license": "MIT",
