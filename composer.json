@@ -1,0 +1,16 @@
+{
+    "name": "schibsted-tech-polska/svd-travis-commands",
+    "description": "Travis Commands",
+    "keywords": ["svd", "travis", "commands"],
+    "license": "MIT",
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "require": {
+        "fabpot/php-cs-fixer": "*",
+        "phpunit/phpunit": "*"
+    }
+}
