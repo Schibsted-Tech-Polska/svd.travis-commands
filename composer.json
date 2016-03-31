@@ -10,7 +10,7 @@
         }
     },
     "require": {
-        "fabpot/php-cs-fixer": "*",
-        "phpunit/phpunit": "*"
+        "fabpot/php-cs-fixer": ">=1.0",
+        "phpunit/phpunit": ">=4.0"
     }
 }
