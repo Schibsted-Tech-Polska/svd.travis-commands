@@ -1,0 +1,13 @@
+{
+  "name": "svd/travis-commands",
+  "version": "1.0.0",
+  "description": "Travis Commands",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schibsted-Tech-Polska/svd.travis-commands.git"
+  },
+  "keywords": ["svd", "travis", "commands"],
+  "author": "SvD",
+  "license": "MIT",
+  "homepage": "https://github.com/Schibsted-Tech-Polska/svd.travis-commands#readme"
+}
