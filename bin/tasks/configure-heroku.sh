@@ -32,3 +32,4 @@ $HEROKU_CLIENT_DIR/heroku plugins:install heroku-pipelines
 
 echo -e "machine api.heroku.com\n  login git\n  password $HEROKU_AUTH_TOKEN" >> ~/.netrc
 echo -e "machine git.heroku.com\n  login git\n  password $HEROKU_AUTH_TOKEN" >> ~/.netrc
+chmod 0600 ~/.netrc
