@@ -22,7 +22,7 @@ fi
 REPOSITORY_NAME=`git config --get remote.origin.url | sed -nr 's/^.*[\/:](.*)\.git/\1/p'`
 SLACK_MESSAGE_CHANNEL="#notifications-deploy"
 SLACK_MESSAGE_COLOR="$2"
-SLACK_MESSAGE_ICON="https://enterprise.travis-ci.com/img/mascot.png"
+SLACK_MESSAGE_ICON="https://a.slack-edge.com/ae7f/img/services/travis_512.png"
 SLACK_MESSAGE_TEXT="Build <$BUILD_URL|#$TRAVIS_BUILD_NUMBER> $BUILD_RESULT in $_TIME_MIN min $_TIME_SEC sec\n$COMMIT_AUTHOR deployed $TRAVIS_BRANCH@$REPOSITORY_NAME revision <$COMMIT_RANGE_URL|$COMMIT_HASH>\n$COMMIT_DESCRIPTION"
 SLACK_MESSAGE_USERNAME="Travis CI"
 
