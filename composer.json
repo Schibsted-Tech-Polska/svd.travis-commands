@@ -8,9 +8,5 @@
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
-    },
-    "require": {
-        "friendsofphp/php-cs-fixer": "~1.0",
-        "phpunit/phpunit": "~4.0"
     }
 }
