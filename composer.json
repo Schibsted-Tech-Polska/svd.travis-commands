@@ -8,5 +8,11 @@
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
+    },
+    "suggest": {
+        "cache/*-adapter": "An actual implementation of PSR-6 cache",
+        "friendsofphp/php-cs-fixer": "A tool to automatically fix PHP code style",
+        "phpunit/phpunit": "The PHP Unit Testing framework",
+        "symfony/phpunit-bridge": "Symfony PHPUnit Bridge"
     }
 }
